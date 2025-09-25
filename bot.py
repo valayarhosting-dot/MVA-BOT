@@ -8,10 +8,10 @@ load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 # === CONFIG ===
-GUILD_ID = 123456789012345678  # Your guild/server ID
+GUILD_ID = 1420234090099249232  # Your guild/server ID
 APPLICATION_CHANNEL_ID = None  # Bot auto-creates if None
-STAFF_CHANNEL_ID = 123456789012345679  # Staff review channel
-MEMBER_ROLE_ID = 123456789012345680  # Approved role
+STAFF_CHANNEL_ID = 1420434904294096917  # Staff review channel
+MEMBER_ROLE_ID = 1420434780075593790  # Approved role
 
 intents = discord.Intents.default()
 intents.members = True
